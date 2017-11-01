@@ -1,0 +1,446 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'i',
+1 verbose cli   'express',
+1 verbose cli   'body-parser',
+1 verbose cli   'mongoose',
+1 verbose cli   'node-restful',
+1 verbose cli   'mongoose-paginate',
+1 verbose cli   'lodash',
+1 verbose cli   'expressquery-int',
+1 verbose cli   'pm2',
+1 verbose cli   '--save' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.4
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData express
+8 silly fetchPackageMetaData body-parser
+9 silly fetchPackageMetaData mongoose
+10 silly fetchPackageMetaData node-restful
+11 silly fetchPackageMetaData mongoose-paginate
+12 silly fetchPackageMetaData lodash
+13 silly fetchPackageMetaData expressquery-int
+14 silly fetchPackageMetaData pm2
+15 silly fetchNamedPackageData express
+16 silly mapToRegistry name express
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry data Result {
+19 silly mapToRegistry   raw: 'express',
+19 silly mapToRegistry   scope: null,
+19 silly mapToRegistry   escapedName: 'express',
+19 silly mapToRegistry   name: 'express',
+19 silly mapToRegistry   rawSpec: '',
+19 silly mapToRegistry   spec: 'latest',
+19 silly mapToRegistry   type: 'tag' }
+20 silly mapToRegistry uri https://registry.npmjs.org/express
+21 silly fetchNamedPackageData body-parser
+22 silly mapToRegistry name body-parser
+23 silly mapToRegistry using default registry
+24 silly mapToRegistry registry https://registry.npmjs.org/
+25 silly mapToRegistry data Result {
+25 silly mapToRegistry   raw: 'body-parser',
+25 silly mapToRegistry   scope: null,
+25 silly mapToRegistry   escapedName: 'body-parser',
+25 silly mapToRegistry   name: 'body-parser',
+25 silly mapToRegistry   rawSpec: '',
+25 silly mapToRegistry   spec: 'latest',
+25 silly mapToRegistry   type: 'tag' }
+26 silly mapToRegistry uri https://registry.npmjs.org/body-parser
+27 silly fetchNamedPackageData mongoose
+28 silly mapToRegistry name mongoose
+29 silly mapToRegistry using default registry
+30 silly mapToRegistry registry https://registry.npmjs.org/
+31 silly mapToRegistry data Result {
+31 silly mapToRegistry   raw: 'mongoose',
+31 silly mapToRegistry   scope: null,
+31 silly mapToRegistry   escapedName: 'mongoose',
+31 silly mapToRegistry   name: 'mongoose',
+31 silly mapToRegistry   rawSpec: '',
+31 silly mapToRegistry   spec: 'latest',
+31 silly mapToRegistry   type: 'tag' }
+32 silly mapToRegistry uri https://registry.npmjs.org/mongoose
+33 silly fetchNamedPackageData node-restful
+34 silly mapToRegistry name node-restful
+35 silly mapToRegistry using default registry
+36 silly mapToRegistry registry https://registry.npmjs.org/
+37 silly mapToRegistry data Result {
+37 silly mapToRegistry   raw: 'node-restful',
+37 silly mapToRegistry   scope: null,
+37 silly mapToRegistry   escapedName: 'node-restful',
+37 silly mapToRegistry   name: 'node-restful',
+37 silly mapToRegistry   rawSpec: '',
+37 silly mapToRegistry   spec: 'latest',
+37 silly mapToRegistry   type: 'tag' }
+38 silly mapToRegistry uri https://registry.npmjs.org/node-restful
+39 silly fetchNamedPackageData mongoose-paginate
+40 silly mapToRegistry name mongoose-paginate
+41 silly mapToRegistry using default registry
+42 silly mapToRegistry registry https://registry.npmjs.org/
+43 silly mapToRegistry data Result {
+43 silly mapToRegistry   raw: 'mongoose-paginate',
+43 silly mapToRegistry   scope: null,
+43 silly mapToRegistry   escapedName: 'mongoose-paginate',
+43 silly mapToRegistry   name: 'mongoose-paginate',
+43 silly mapToRegistry   rawSpec: '',
+43 silly mapToRegistry   spec: 'latest',
+43 silly mapToRegistry   type: 'tag' }
+44 silly mapToRegistry uri https://registry.npmjs.org/mongoose-paginate
+45 silly fetchNamedPackageData lodash
+46 silly mapToRegistry name lodash
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry data Result {
+49 silly mapToRegistry   raw: 'lodash',
+49 silly mapToRegistry   scope: null,
+49 silly mapToRegistry   escapedName: 'lodash',
+49 silly mapToRegistry   name: 'lodash',
+49 silly mapToRegistry   rawSpec: '',
+49 silly mapToRegistry   spec: 'latest',
+49 silly mapToRegistry   type: 'tag' }
+50 silly mapToRegistry uri https://registry.npmjs.org/lodash
+51 silly fetchNamedPackageData expressquery-int
+52 silly mapToRegistry name expressquery-int
+53 silly mapToRegistry using default registry
+54 silly mapToRegistry registry https://registry.npmjs.org/
+55 silly mapToRegistry data Result {
+55 silly mapToRegistry   raw: 'expressquery-int',
+55 silly mapToRegistry   scope: null,
+55 silly mapToRegistry   escapedName: 'expressquery-int',
+55 silly mapToRegistry   name: 'expressquery-int',
+55 silly mapToRegistry   rawSpec: '',
+55 silly mapToRegistry   spec: 'latest',
+55 silly mapToRegistry   type: 'tag' }
+56 silly mapToRegistry uri https://registry.npmjs.org/expressquery-int
+57 silly fetchNamedPackageData pm2
+58 silly mapToRegistry name pm2
+59 silly mapToRegistry using default registry
+60 silly mapToRegistry registry https://registry.npmjs.org/
+61 silly mapToRegistry data Result {
+61 silly mapToRegistry   raw: 'pm2',
+61 silly mapToRegistry   scope: null,
+61 silly mapToRegistry   escapedName: 'pm2',
+61 silly mapToRegistry   name: 'pm2',
+61 silly mapToRegistry   rawSpec: '',
+61 silly mapToRegistry   spec: 'latest',
+61 silly mapToRegistry   type: 'tag' }
+62 silly mapToRegistry uri https://registry.npmjs.org/pm2
+63 verbose request uri https://registry.npmjs.org/expressquery-int
+64 verbose request no auth needed
+65 info attempt registry request try #1 at 14:58:01
+66 verbose request id b91cd015b06fc050
+67 http request GET https://registry.npmjs.org/expressquery-int
+68 verbose request uri https://registry.npmjs.org/node-restful
+69 verbose request no auth needed
+70 info attempt registry request try #1 at 14:58:01
+71 verbose etag W/"58ca51dd-8f78"
+72 verbose lastModified Thu, 16 Mar 2017 08:50:37 GMT
+73 http request GET https://registry.npmjs.org/node-restful
+74 verbose request uri https://registry.npmjs.org/body-parser
+75 verbose request no auth needed
+76 info attempt registry request try #1 at 14:58:01
+77 verbose etag W/"59e7626c-231cd"
+78 verbose lastModified Wed, 18 Oct 2017 14:17:16 GMT
+79 http request GET https://registry.npmjs.org/body-parser
+80 verbose request uri https://registry.npmjs.org/express
+81 verbose request no auth needed
+82 info attempt registry request try #1 at 14:58:01
+83 verbose etag W/"59e8428b-933e7"
+84 verbose lastModified Thu, 19 Oct 2017 06:13:31 GMT
+85 http request GET https://registry.npmjs.org/express
+86 verbose request uri https://registry.npmjs.org/mongoose-paginate
+87 verbose request no auth needed
+88 info attempt registry request try #1 at 14:58:01
+89 verbose etag W/"59dd86c2-bd54"
+90 verbose lastModified Wed, 11 Oct 2017 02:49:38 GMT
+91 http request GET https://registry.npmjs.org/mongoose-paginate
+92 verbose request uri https://registry.npmjs.org/mongoose
+93 verbose request no auth needed
+94 info attempt registry request try #1 at 14:58:01
+95 verbose etag W/"59e76296-a5465"
+96 verbose lastModified Wed, 18 Oct 2017 14:17:58 GMT
+97 http request GET https://registry.npmjs.org/mongoose
+98 verbose request uri https://registry.npmjs.org/lodash
+99 verbose request no auth needed
+100 info attempt registry request try #1 at 14:58:01
+101 verbose etag W/"59e8d364-2a105"
+102 verbose lastModified Thu, 19 Oct 2017 16:31:32 GMT
+103 http request GET https://registry.npmjs.org/lodash
+104 verbose request uri https://registry.npmjs.org/pm2
+105 verbose request no auth needed
+106 info attempt registry request try #1 at 14:58:01
+107 verbose etag W/"59e73281-91b77"
+108 verbose lastModified Wed, 18 Oct 2017 10:52:49 GMT
+109 http request GET https://registry.npmjs.org/pm2
+110 http 304 https://registry.npmjs.org/lodash
+111 verbose headers { date: 'Thu, 19 Oct 2017 16:58:04 GMT',
+111 verbose headers   via: '1.1 varnish',
+111 verbose headers   'cache-control': 'max-age=300',
+111 verbose headers   etag: 'W/"59e8d364-2a105"',
+111 verbose headers   age: '78',
+111 verbose headers   connection: 'keep-alive',
+111 verbose headers   'x-served-by': 'cache-gru17122-GRU',
+111 verbose headers   'x-cache': 'HIT',
+111 verbose headers   'x-cache-hits': '147',
+111 verbose headers   'x-timer': 'S1508432284.174736,VS0,VE0',
+111 verbose headers   vary: 'Accept-Encoding, Accept' }
+112 silly get cb [ 304,
+112 silly get   { date: 'Thu, 19 Oct 2017 16:58:04 GMT',
+112 silly get     via: '1.1 varnish',
+112 silly get     'cache-control': 'max-age=300',
+112 silly get     etag: 'W/"59e8d364-2a105"',
+112 silly get     age: '78',
+112 silly get     connection: 'keep-alive',
+112 silly get     'x-served-by': 'cache-gru17122-GRU',
+112 silly get     'x-cache': 'HIT',
+112 silly get     'x-cache-hits': '147',
+112 silly get     'x-timer': 'S1508432284.174736,VS0,VE0',
+112 silly get     vary: 'Accept-Encoding, Accept' } ]
+113 verbose etag https://registry.npmjs.org/lodash from cache
+114 verbose get saving lodash to C:\Users\Fernando Moreira\AppData\Roaming\npm-cache\registry.npmjs.org\lodash\.cache.json
+115 verbose correctMkdir C:\Users\Fernando Moreira\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+116 http 304 https://registry.npmjs.org/express
+117 verbose headers { date: 'Thu, 19 Oct 2017 16:58:04 GMT',
+117 verbose headers   via: '1.1 varnish',
+117 verbose headers   'cache-control': 'max-age=300',
+117 verbose headers   etag: 'W/"59e8428b-933e7"',
+117 verbose headers   age: '176',
+117 verbose headers   connection: 'keep-alive',
+117 verbose headers   'x-served-by': 'cache-gru17124-GRU',
+117 verbose headers   'x-cache': 'HIT',
+117 verbose headers   'x-cache-hits': '7',
+117 verbose headers   'x-timer': 'S1508432284.176030,VS0,VE0',
+117 verbose headers   vary: 'Accept-Encoding, Accept' }
+118 silly get cb [ 304,
+118 silly get   { date: 'Thu, 19 Oct 2017 16:58:04 GMT',
+118 silly get     via: '1.1 varnish',
+118 silly get     'cache-control': 'max-age=300',
+118 silly get     etag: 'W/"59e8428b-933e7"',
+118 silly get     age: '176',
+118 silly get     connection: 'keep-alive',
+118 silly get     'x-served-by': 'cache-gru17124-GRU',
+118 silly get     'x-cache': 'HIT',
+118 silly get     'x-cache-hits': '7',
+118 silly get     'x-timer': 'S1508432284.176030,VS0,VE0',
+118 silly get     vary: 'Accept-Encoding, Accept' } ]
+119 verbose etag https://registry.npmjs.org/express from cache
+120 verbose get saving express to C:\Users\Fernando Moreira\AppData\Roaming\npm-cache\registry.npmjs.org\express\.cache.json
+121 verbose correctMkdir C:\Users\Fernando Moreira\AppData\Roaming\npm-cache correctMkdir already in flight; waiting
+122 http 304 https://registry.npmjs.org/body-parser
+123 verbose headers { date: 'Thu, 19 Oct 2017 16:58:04 GMT',
+123 verbose headers   via: '1.1 varnish',
+123 verbose headers   'cache-control': 'max-age=300',
+123 verbose headers   etag: 'W/"59e7626c-231cd"',
+123 verbose headers   age: '188',
+123 verbose headers   connection: 'keep-alive',
+123 verbose headers   'x-served-by': 'cache-gru17129-GRU',
+123 verbose headers   'x-cache': 'HIT',
+123 verbose headers   'x-cache-hits': '4',
+123 verbose headers   'x-timer': 'S1508432284.212868,VS0,VE0',
+123 verbose headers   vary: 'Accept-Encoding, Accept' }
+124 silly get cb [ 304,
+124 silly get   { date: 'Thu, 19 Oct 2017 16:58:04 GMT',
+124 silly get     via: '1.1 varnish',
+124 silly get     'cache-control': 'max-age=300',
+124 silly get     etag: 'W/"59e7626c-231cd"',
+124 silly get     age: '188',
+124 silly get     connection: 'keep-alive',
+124 silly get     'x-served-by': 'cache-gru17129-GRU',
+124 silly get     'x-cache': 'HIT',
+124 silly get     'x-cache-hits': '4',
+124 silly get     'x-timer': 'S1508432284.212868,VS0,VE0',
+124 silly get     vary: 'Accept-Encoding, Accept' } ]
+125 verbose etag https://registry.npmjs.org/body-parser from cache
+126 verbose get saving body-parser to C:\Users\Fernando Moreira\AppData\Roaming\npm-cache\registry.npmjs.org\body-parser\.cache.json
+127 verbose correctMkdir C:\Users\Fernando Moreira\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+128 http 304 https://registry.npmjs.org/mongoose
+129 verbose headers { date: 'Thu, 19 Oct 2017 16:58:04 GMT',
+129 verbose headers   via: '1.1 varnish',
+129 verbose headers   'cache-control': 'max-age=300',
+129 verbose headers   etag: 'W/"59e76296-a5465"',
+129 verbose headers   age: '244',
+129 verbose headers   connection: 'keep-alive',
+129 verbose headers   'x-served-by': 'cache-gru17130-GRU',
+129 verbose headers   'x-cache': 'HIT',
+129 verbose headers   'x-cache-hits': '1',
+129 verbose headers   'x-timer': 'S1508432284.216845,VS0,VE8',
+129 verbose headers   vary: 'Accept-Encoding, Accept' }
+130 silly get cb [ 304,
+130 silly get   { date: 'Thu, 19 Oct 2017 16:58:04 GMT',
+130 silly get     via: '1.1 varnish',
+130 silly get     'cache-control': 'max-age=300',
+130 silly get     etag: 'W/"59e76296-a5465"',
+130 silly get     age: '244',
+130 silly get     connection: 'keep-alive',
+130 silly get     'x-served-by': 'cache-gru17130-GRU',
+130 silly get     'x-cache': 'HIT',
+130 silly get     'x-cache-hits': '1',
+130 silly get     'x-timer': 'S1508432284.216845,VS0,VE8',
+130 silly get     vary: 'Accept-Encoding, Accept' } ]
+131 verbose etag https://registry.npmjs.org/mongoose from cache
+132 verbose get saving mongoose to C:\Users\Fernando Moreira\AppData\Roaming\npm-cache\registry.npmjs.org\mongoose\.cache.json
+133 verbose correctMkdir C:\Users\Fernando Moreira\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+134 http 304 https://registry.npmjs.org/mongoose-paginate
+135 verbose headers { date: 'Thu, 19 Oct 2017 16:58:04 GMT',
+135 verbose headers   via: '1.1 varnish',
+135 verbose headers   'cache-control': 'max-age=300',
+135 verbose headers   etag: 'W/"59dd86c2-bd54"',
+135 verbose headers   age: '0',
+135 verbose headers   connection: 'keep-alive',
+135 verbose headers   'x-served-by': 'cache-gru17129-GRU',
+135 verbose headers   'x-cache': 'HIT',
+135 verbose headers   'x-cache-hits': '1',
+135 verbose headers   'x-timer': 'S1508432284.182440,VS0,VE189',
+135 verbose headers   vary: 'Accept-Encoding, Accept' }
+136 silly get cb [ 304,
+136 silly get   { date: 'Thu, 19 Oct 2017 16:58:04 GMT',
+136 silly get     via: '1.1 varnish',
+136 silly get     'cache-control': 'max-age=300',
+136 silly get     etag: 'W/"59dd86c2-bd54"',
+136 silly get     age: '0',
+136 silly get     connection: 'keep-alive',
+136 silly get     'x-served-by': 'cache-gru17129-GRU',
+136 silly get     'x-cache': 'HIT',
+136 silly get     'x-cache-hits': '1',
+136 silly get     'x-timer': 'S1508432284.182440,VS0,VE189',
+136 silly get     vary: 'Accept-Encoding, Accept' } ]
+137 verbose etag https://registry.npmjs.org/mongoose-paginate from cache
+138 verbose get saving mongoose-paginate to C:\Users\Fernando Moreira\AppData\Roaming\npm-cache\registry.npmjs.org\mongoose-paginate\.cache.json
+139 verbose correctMkdir C:\Users\Fernando Moreira\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+140 http 304 https://registry.npmjs.org/node-restful
+141 verbose headers { date: 'Thu, 19 Oct 2017 16:58:04 GMT',
+141 verbose headers   via: '1.1 varnish',
+141 verbose headers   'cache-control': 'max-age=300',
+141 verbose headers   etag: 'W/"58ca51dd-8f78"',
+141 verbose headers   age: '0',
+141 verbose headers   connection: 'keep-alive',
+141 verbose headers   'x-served-by': 'cache-gru17129-GRU',
+141 verbose headers   'x-cache': 'HIT',
+141 verbose headers   'x-cache-hits': '1',
+141 verbose headers   'x-timer': 'S1508432284.212302,VS0,VE182',
+141 verbose headers   vary: 'Accept-Encoding, Accept' }
+142 silly get cb [ 304,
+142 silly get   { date: 'Thu, 19 Oct 2017 16:58:04 GMT',
+142 silly get     via: '1.1 varnish',
+142 silly get     'cache-control': 'max-age=300',
+142 silly get     etag: 'W/"58ca51dd-8f78"',
+142 silly get     age: '0',
+142 silly get     connection: 'keep-alive',
+142 silly get     'x-served-by': 'cache-gru17129-GRU',
+142 silly get     'x-cache': 'HIT',
+142 silly get     'x-cache-hits': '1',
+142 silly get     'x-timer': 'S1508432284.212302,VS0,VE182',
+142 silly get     vary: 'Accept-Encoding, Accept' } ]
+143 verbose etag https://registry.npmjs.org/node-restful from cache
+144 verbose get saving node-restful to C:\Users\Fernando Moreira\AppData\Roaming\npm-cache\registry.npmjs.org\node-restful\.cache.json
+145 verbose correctMkdir C:\Users\Fernando Moreira\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+146 http 404 https://registry.npmjs.org/expressquery-int
+147 verbose headers { 'content-type': 'application/json',
+147 verbose headers   'cache-control': 'max-age=0',
+147 verbose headers   'content-length': '2',
+147 verbose headers   'accept-ranges': 'bytes',
+147 verbose headers   date: 'Thu, 19 Oct 2017 16:58:04 GMT',
+147 verbose headers   via: '1.1 varnish',
+147 verbose headers   age: '0',
+147 verbose headers   connection: 'keep-alive',
+147 verbose headers   'x-served-by': 'cache-gru17135-GRU',
+147 verbose headers   'x-cache': 'MISS',
+147 verbose headers   'x-cache-hits': '0',
+147 verbose headers   'x-timer': 'S1508432284.196907,VS0,VE747',
+147 verbose headers   vary: 'Accept-Encoding' }
+148 silly get cb [ 404,
+148 silly get   { 'content-type': 'application/json',
+148 silly get     'cache-control': 'max-age=0',
+148 silly get     'content-length': '2',
+148 silly get     'accept-ranges': 'bytes',
+148 silly get     date: 'Thu, 19 Oct 2017 16:58:04 GMT',
+148 silly get     via: '1.1 varnish',
+148 silly get     age: '0',
+148 silly get     connection: 'keep-alive',
+148 silly get     'x-served-by': 'cache-gru17135-GRU',
+148 silly get     'x-cache': 'MISS',
+148 silly get     'x-cache-hits': '0',
+148 silly get     'x-timer': 'S1508432284.196907,VS0,VE747',
+148 silly get     vary: 'Accept-Encoding' } ]
+149 silly fetchPackageMetaData Error: Registry returned 404 for GET on https://registry.npmjs.org/expressquery-int
+149 silly fetchPackageMetaData     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+149 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:280:14)
+149 silly fetchPackageMetaData     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+149 silly fetchPackageMetaData     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+149 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+149 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+149 silly fetchPackageMetaData     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+149 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+149 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+149 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12)
+149 silly fetchPackageMetaData  error for expressquery-int { Error: Registry returned 404 for GET on https://registry.npmjs.org/expressquery-int
+149 silly fetchPackageMetaData     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+149 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:280:14)
+149 silly fetchPackageMetaData     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+149 silly fetchPackageMetaData     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+149 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+149 silly fetchPackageMetaData     at Request.emit (events.js:191:7)
+149 silly fetchPackageMetaData     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+149 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+149 silly fetchPackageMetaData     at Request.emit (events.js:188:7)
+149 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12) pkgid: 'expressquery-int', statusCode: 404, code: 'E404' }
+150 http 304 https://registry.npmjs.org/pm2
+151 verbose headers { date: 'Thu, 19 Oct 2017 16:58:04 GMT',
+151 verbose headers   via: '1.1 varnish',
+151 verbose headers   'cache-control': 'max-age=300',
+151 verbose headers   etag: 'W/"59e73281-91b77"',
+151 verbose headers   age: '0',
+151 verbose headers   connection: 'keep-alive',
+151 verbose headers   'x-served-by': 'cache-gru17124-GRU',
+151 verbose headers   'x-cache': 'HIT',
+151 verbose headers   'x-cache-hits': '1',
+151 verbose headers   'x-timer': 'S1508432284.195015,VS0,VE775',
+151 verbose headers   vary: 'Accept-Encoding, Accept' }
+152 silly get cb [ 304,
+152 silly get   { date: 'Thu, 19 Oct 2017 16:58:04 GMT',
+152 silly get     via: '1.1 varnish',
+152 silly get     'cache-control': 'max-age=300',
+152 silly get     etag: 'W/"59e73281-91b77"',
+152 silly get     age: '0',
+152 silly get     connection: 'keep-alive',
+152 silly get     'x-served-by': 'cache-gru17124-GRU',
+152 silly get     'x-cache': 'HIT',
+152 silly get     'x-cache-hits': '1',
+152 silly get     'x-timer': 'S1508432284.195015,VS0,VE775',
+152 silly get     vary: 'Accept-Encoding, Accept' } ]
+153 verbose etag https://registry.npmjs.org/pm2 from cache
+154 verbose get saving pm2 to C:\Users\Fernando Moreira\AppData\Roaming\npm-cache\registry.npmjs.org\pm2\.cache.json
+155 verbose correctMkdir C:\Users\Fernando Moreira\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+156 silly rollbackFailedOptional Starting
+157 silly rollbackFailedOptional Finishing
+158 silly runTopLevelLifecycles Finishing
+159 silly install printInstalled
+160 verbose stack Error: Registry returned 404 for GET on https://registry.npmjs.org/expressquery-int
+160 verbose stack     at makeError (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:302:12)
+160 verbose stack     at CachingRegistryClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:280:14)
+160 verbose stack     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:210:14)
+160 verbose stack     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:187:22)
+160 verbose stack     at emitTwo (events.js:106:13)
+160 verbose stack     at Request.emit (events.js:191:7)
+160 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1048:10)
+160 verbose stack     at emitOne (events.js:96:13)
+160 verbose stack     at Request.emit (events.js:188:7)
+160 verbose stack     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:969:12)
+161 verbose statusCode 404
+162 verbose pkgid expressquery-int
+163 verbose cwd C:\Users\Fernando Moreira\Documents\NodeJs
+164 error Windows_NT 10.0.15063
+165 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "i" "express" "body-parser" "mongoose" "node-restful" "mongoose-paginate" "lodash" "expressquery-int" "pm2" "--save"
+166 error node v6.11.4
+167 error npm  v3.10.10
+168 error code E404
+169 error 404 Registry returned 404 for GET on https://registry.npmjs.org/expressquery-int
+170 error 404
+171 error 404 'expressquery-int' is not in the npm registry.
+172 error 404 You should bug the author to publish it (or use the name yourself!)
+173 error 404 Note that you can also install from a
+174 error 404 tarball, folder, http url, or git url.
+175 verbose exit [ 1, true ]
